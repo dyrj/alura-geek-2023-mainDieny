@@ -1,6 +1,6 @@
 # alurageek2023
 
-site e-commerce
+Site e-commerce
 
 A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas, para isso desejam implementar um e-commerce e levar a empresa ao próximo patamar, se tornar mais digital.
 
@@ -16,9 +16,9 @@ Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar p
 
 Como acessar:
 
-1 - Acesse a página da aplicação <a href=" ">clicando aqui</a><br>
+1 - Acesse a página da aplicação <a href="https://dyrj.github.io/alura-geek-2023-mainDieny/">clicando aqui</a><br>
 
-Login:admin
+Login:admin<br>
 Senha:admin
 
 Tecnologias Utilizadas:
@@ -26,4 +26,6 @@ Tecnologias Utilizadas:
 HTML, CSS e JavaScript,mockapi
 
 https://www.linkedin.com/in/dieny-soares/
+
 # alura-geek-2023-mainDieny
+
