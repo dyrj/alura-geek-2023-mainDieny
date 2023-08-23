@@ -1,0 +1,163 @@
+[
+  {
+    "imageUrl": "assets/image/produtos/starwars/caneca.svg",
+    "name": "Caneca",
+    "price": "70,00",
+    "id": 1,
+    "alt": "Product",
+    "section": "starWars",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/starwars/darthvaderlego.svg",
+    "name": "Darthvader Lego",
+    "price": "80,00",
+    "id": 2,
+    "alt": "Product",
+    "section": "starWars",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/starwars/yoda.svg",
+    "name": "Boneco Yoda",
+    "price": "100,00",
+    "id": 3,
+    "alt": "Product",
+    "section": "starWars",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/starwars/clone.svg",
+    "name": "Clone",
+    "price": "60,00",
+    "id": 4,
+    "alt": "Product",
+    "section": "starWars",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/starwars/yodabebe.svg",
+    "name": "Yoda bebe",
+    "price": "90,00",
+    "id": 5,
+    "alt": "Product",
+    "section": "starWars",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/starwars/kyloren.svg",
+    "name": "kyloren",
+    "price": "60,00",
+    "id": 6,
+    "alt": "Product",
+    "section": "starWars",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/console/controle.svg",
+    "name": "Controle",
+    "price": "60,00",
+    "id": 7,
+    "alt": "Product",
+    "section": "consoles",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/console/ps5.svg",
+    "name": "PS5",
+    "price": "60,00",
+    "id": 8,
+    "alt": "Product",
+    "section": "consoles",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/console/nintendo.svg",
+    "name": "Nintendo",
+    "price": "60,00",
+    "id": 9,
+    "alt": "Product",
+    "section": "consoles",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/console/wii.svg",
+    "name": "Wii",
+    "price": "60,00",
+    "id": 10,
+    "alt": "Product",
+    "section": "consoles",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/console/xbox.svg",
+    "name": "Xbox",
+    "price": "60,00",
+    "id": 11,
+    "alt": "Product",
+    "section": "consoles",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/console/gameboy.svg",
+    "name": "Gameboy",
+    "price": "60,00",
+    "id": 12,
+    "alt": "Product",
+    "section": "consoles",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/diversos/camisa-japonesa.svg",
+    "name": "Camisa Japonesa",
+    "price": "60,00",
+    "id": 13,
+    "alt": "Product",
+    "section": "diversos",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/diversos/camisa.svg",
+    "name": "Camisa Atari",
+    "price": "60,00",
+    "id": 14,
+    "alt": "Product",
+    "section": "diversos",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/diversos/sonic.svg",
+    "name": "Sonic",
+    "price": "60,00",
+    "id": 15,
+    "alt": "Product",
+    "section": "diversos",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/diversos/relogio.svg",
+    "name": "Relogio",
+    "price": "60,00",
+    "id": 16,
+    "alt": "Product",
+    "section": "diversos",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/diversos/realidadevirtual.svg",
+    "name": "Realidade Virtual",
+    "price": "60,00",
+    "id": 17,
+    "alt": "Product",
+    "section": "diversos",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "imageUrl": "assets/image/produtos/diversos/pikachu.svg",
+    "section": "diversos",
+    "name": "Pikachu",
+    "price": "60,00",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": 18
+  }
+]

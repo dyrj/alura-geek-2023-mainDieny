@@ -1,0 +1,14 @@
+{
+  "name": "alura-geek-2023-maindieny",
+  "version": "1.0.0",
+  "description": "site e-commerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

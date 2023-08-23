@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="icon" type="image/png" href="assets/image/header/logo/alurageek-control.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/produtos.css">
+    <link rel="stylesheet" href="assets/css/edita-produto.css">
+    <link rel="stylesheet" href="assets/css/adicionar-produto.css">
+
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+
+<body>
+    <header>
+        <div class="lado-esquerdo">
+            <a href="index.html">
+                <img src="assets/image/header/logo/alurageek.svg" alt="Logo Alura Geek">
+            </a>
+            <div class="ajuste-barra-pesquisa">
+                <input type="text" placeholder="O que deseja encontrar?" class="barra-pesquisa">
+            </div>
+        </div>
+        <div class="lado-direito">
+            <a class="menu" href="products.html">
+                <button class="menu-adm">Menu Administrador</button>
+            </a>
+            <div class="lupa">
+                <img src="assets/image/header/search/lupa.svg">
+            </div>
+        </div>
+    </header>
+    <main class="editar-produto"></main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-ajuste-container">
+                <div class="footer-lado-esquerdo">
+                    <img src="assets/image/footer/logo/alurageek.svg" alt="Logo Alura Geek">
+                    <nav>
+                        <ul>
+                            <li><a href="">Quem somos nós</a></li>
+                            <li><a href="">Política de privacidade</a></li>
+                            <li><a href="">Programa fidelidade</a></li>
+                            <li><a href="">Nossas lojas</a></li>
+                            <li><a href="">Quero ser franqueado</a></li>
+                            <li><a href="">Anuncie aqui</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <form class="form-footer" onsubmit="return validateForm()">
+                    <span>Fale conosco</span>
+                    <div class="input-nome">
+                        <input class="footer-input-required" name="name" required>
+                        <label>Nome</label>
+                    </div>
+                    <div class="ajuste-textarea">
+                        <div class="div-textarea">
+                            <textarea class="footer-textarea-required" name="message" required></textarea>
+                            <label>Escreva sua mensagem</label>
+                        </div>
+                    </div>
+                    <span id="error-msg" style="display: none; color: red;"></span>
+                    <span id="success-msg" style="display: none; color: green;"></span>
+                    <button class="botao-footer" type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+        <div class="desenvolvedor">
+            <span>
+                Desenvolvido por Dieny Soares &copy
+            </span>
+            <div class="icon">
+                <span>
+                    2023
+                </span>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/controllers/editar-produto.js" type="module"></script>
+    <script src="assets/services/produtos-services.js" type="module"></script>
+    <script type="module" src="assets/js/footerFormulario.js"></script>
+</body>
+
+</html>

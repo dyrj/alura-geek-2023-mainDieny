@@ -1,0 +1,8 @@
+.erro-caracteres {
+    color: red;
+    display: none;
+}
+
+.input-descricao-add:invalid ~ .erro-caracteres {
+    display: block;
+}

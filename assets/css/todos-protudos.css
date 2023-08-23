@@ -1,0 +1,28 @@
+@media (max-width:650px) {
+    .titulo-espaço h3 {
+        font-size:18px;
+    }
+    .titulo-espaço a {
+        font-size:15px;
+    }
+
+    .todos-produtos {
+        padding:20px 10px;
+    }
+
+    .lista-todos-produtos {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+    .lista-todos-produtos li img {
+        width:100%;
+        height:100%;
+    }
+}
+
+@media (max-width:400px) {
+    .titulo-espaço {
+        flex-direction:column-reverse;
+    }
+}

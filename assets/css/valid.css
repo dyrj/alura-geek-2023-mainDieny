@@ -1,0 +1,35 @@
+.input-url-add,
+.input-nome-add,
+.input-preco-add,
+.input-descricao-add {
+    padding: 28px 12px 7px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    color: #464646;
+    caret-color: #464646;
+    border-bottom: 1px solid #c8c8c8;
+    height: 53px;
+}
+
+.label-url-add,
+.label-nome-add,
+.label-preco-add,
+.label-descricao-add {
+    position: absolute;
+    top: 25px;
+    left: 12px;
+    pointer-events: none;
+    transition:.15s;
+    color: #a2a2a2;
+}
+
+input:focus ~ label,
+input:valid ~ label,
+.input-descricao-add:focus ~ label,
+.input-descricao-add:valid ~ label {
+    transform:translateY(-20px);
+    font-size:13px;
+    color:#2a7ae4;
+}

@@ -1,0 +1,94 @@
+.container-login {
+    display: flex;
+    padding: 92px;
+    background-color: #f5f5f5;
+}
+
+form {
+    width: 432px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-login span {
+    color: #464646;
+
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input-usuario,
+.input-senha {
+    position: relative;
+    width: 100%;
+}
+
+.input-usuario input,
+.input-senha input {
+    height: 53px;
+    width: 100%;
+    padding: 28px 12px 7px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #464646;
+    caret-color: #464646;
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom: 25px;
+}
+
+.input-usuario label,
+.input-senha label {
+    position: absolute;
+    top: 25px;
+    left: 12px;
+    pointer-events: none;
+    transition: .15s;
+    color: #a2a2a2;
+}
+
+.input-usuario input:focus ~ label,
+.input-senha input:focus ~ label,
+.input-usuario input:valid ~ label,
+.input-senha input:valid ~ label {
+    transform: translateY(-20px);
+    font-size: 13px;
+    color: #2a7ae4;
+}
+
+form button {
+    border: none;
+    padding: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #2a7ae4;
+    color: #fff;
+}
+
+form button:hover {
+    background-color: #5595e9;
+}
+
+@media (max-width:550px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lado-direito {
+        width: 0;
+    }
+
+    .container-login {
+        padding: 92px 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+}

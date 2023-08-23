@@ -1,0 +1,5 @@
+@media (max-width:550px) {
+    .lado-direito {
+        width:unset;
+    }
+}

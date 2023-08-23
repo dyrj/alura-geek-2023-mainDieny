@@ -1,0 +1,62 @@
+.capa {
+    height: 352px;
+    background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.8)),url("../image/capa/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.entrada-promocao {
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px 32px;
+}
+.entrada-promocao h2 {
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.entrada-promocao p {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.button-promocao {
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 16px;
+
+    background-color: #2a7ae4;
+    color: #fff;
+}
+.button-promocao:hover {
+    background-color:#5595e9;
+}
+
+@media (max-width:670px) {
+    .capa .entrada-promocao h2 {
+        font-size:40px;
+    }
+    .button-promocao {
+        font-size:14px;
+    }
+}
+@media (max-width:400px) {
+    .capa .entrada-promocao h2 {
+        font-size:22px;
+    }
+    .capa .entrada-promocao p {
+        font-size:13px;
+    }
+    main .capa {
+        height: 200px;
+    }
+}

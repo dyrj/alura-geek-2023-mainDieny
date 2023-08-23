@@ -1,0 +1,256 @@
+.section-star-wars, .section-consoles, .section-diversos {
+    max-width: 1220px;
+    margin: 64px auto;
+    padding: 0 32px;
+}
+
+.produto-especifico {
+    background-color:#f5f5f5;
+}
+
+.ajuste-produto-detalhe {
+    max-width: 1220px;
+    margin: auto;
+    padding: 64px 32px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+}
+.titulo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2a7ae4;
+}
+
+.produtos {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+}
+.produtos li {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titulo-espaço {
+    margin:20px 0;
+}
+.titulo-espaço a {
+    color:#fff;
+    background-color:#2a7ae4;
+    padding:18px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.botao-remover, .editar {
+    padding:10px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    color:#fff;
+    background-color:#2a7ae4;
+    border:none;
+    text-align: center;
+}
+.todos-produtos {
+    max-width:1220px;
+    margin: auto;
+    padding: 64px 10px;
+}
+.lista-todos-produtos {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 22px;
+}
+.lista-todos-produtos li {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+.lista-todos-produtos li img {
+    height: 200px;
+    width: 180px;
+}
+
+.produto-nome {
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+}
+.span-bold {
+    font-size: 16px;
+    font-weight: 700;
+    color:#464646;
+}
+.produtos li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2a7ae4;
+}
+
+.produto-descricao {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 64px 32px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.produto-descricao img {
+    height: 400px;
+}
+.produto-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.produto-direita h1 {
+    font-size: 52px;
+    font-weight: 500;
+    color:#464646;
+}
+.produto-direita span {
+    font-size: 16px;
+    font-weight: 700;
+}
+.produto-direita p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+.removendo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #2a7ae4;
+    padding: 20px;
+    text-align: center;
+    z-index: 9999;
+    display: none;
+}
+
+.div-remove {
+    display:flex;
+}
+
+.deletar {
+    padding:10px 20px;
+    font-size:15px;
+    font-weight:600;
+    background-color:#2a7ae4;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+}
+.nao-deletar {
+    padding:10px 35px;
+    font-size:15px;
+    font-weight:600;
+    background-color:#2a7ae4;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+}
+.nao-deletar:hover, .deletar:hover {
+    background-color:#5595e9;
+}
+
+.removendo .span-remover {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.removendo button {
+    margin: 5px;
+}
+
+
+@media (max-width: 1200px) {
+    .produtos li:nth-child(5),
+    .produtos li:nth-child(6) {
+        display:none;
+    }
+    .section-star-wars {
+        margin:30px 0 0 0;
+    }
+    .section-consoles {
+        margin:10px 0;
+    }
+    .section-diversos {
+        margin:0 0 50px 0;
+    }
+}
+
+@media (max-width: 950px) {
+    .section-star-wars,
+    .section-consoles,
+    .section-diversos {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .produtos {
+        margin:auto;
+        flex-wrap:nowrap;
+        padding:0 10px;
+    }
+    .produtos li img {
+        width:100%;
+    }
+    .titulo {
+        padding:15px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .produto-descricao img {
+        height: 250px;
+    }
+    .produto-direita h1 {
+        font-size:30px;
+    }
+}
+
+@media (max-width: 650px) {
+    .produtos {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px; 
+    }
+}
+
+@media (max-width: 400px) {
+    .titulo h3 {
+        font-size:22px;
+    }
+    .removendo, .div-remove {
+        flex-direction: column;
+    }
+}

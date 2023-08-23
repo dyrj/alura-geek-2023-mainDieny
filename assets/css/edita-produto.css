@@ -1,0 +1,138 @@
+.editar-produto {
+    background-color: #f5f5f5
+}
+
+.editar-produtos, .adicionar-produtos {
+    display: flex;
+    padding: 64px 32px;
+}
+
+.editar-produto-formulario, .editar-produtos, .adicionar-produto-formulario {
+    width: 559px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.editar-produto-formulario h3, .editar-produtos h3 {
+    font-size:30px;
+    font-weight:700;
+}
+
+.url-imagem, 
+.categoria, 
+.nome-produto-edita, 
+.preco-produto-edita, 
+.descricao-edita,
+.add-url-imagem, 
+.add-categoria, 
+.add-nome-produto-edita, 
+.add-preco-produto-edita, 
+.add-descricao-edita {
+    position: relative;
+    width: 100%;
+}
+.url-imagem input, 
+.categoria input, 
+.nome-produto-edita input, 
+.preco-produto-edita input {
+    padding: 28px 12px 7px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    color: #464646;
+    caret-color: #464646;
+    border-bottom: 1px solid #c8c8c8;
+    height: 53px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.url-imagem label, 
+.categoria label, 
+.nome-produto-edita label, 
+.preco-produto-edita label,
+.descricao-edita label {
+    position: absolute;
+    top: 25px;
+    left: 12px;
+    pointer-events: none;
+    transition:.15s;
+    color: #a2a2a2;
+}
+.url-imagem input:focus ~ label, 
+.categoria input:focus ~ label, 
+.nome-produto-edita input:focus ~ label, 
+.preco-produto-edita input:focus ~ label,
+.descricao-edita textarea:focus ~ label,
+.url-imagem input:valid ~ label, 
+.categoria input:valid ~ label, 
+.nome-produto-edita input:valid ~ label, 
+.preco-produto-edita input:valid ~ label,
+.descricao-edita textarea:valid ~ label {
+    transform:translateY(-20px);
+    font-size:13px;
+    color:#2a7ae4;
+}
+
+.descricao-edita textarea, .add-descricao-edita textarea{
+    height: 150px;
+    width: 100%;
+    padding: 28px 12px 7px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #464646;
+    caret-color: #464646;
+    border-bottom: 1px solid #c8c8c8;
+    resize: none;
+    flex-grow: 1;
+}
+
+.salvar-edicao, .add-produto {
+    padding: 16px 0;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color:#2a7ae4;
+    color:#fff;
+}
+
+.menu-adm {
+    padding: 16px 70px;
+    border:none;
+    background-color: #2a7ae4;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu-adm:hover {
+    background-color: #5595e9;
+}
+
+@media (max-width:900px) {
+    .editar-produtos {
+        width:100%;
+    }
+}
+
+@media (max-width:650px) {
+    .editar-produtos {
+        padding:64px 20px;
+    }
+    .editar-produto-formulario {
+        width:100%;
+    }
+    .editar-produto-formulario h3 {
+        font-size:18px;
+    }
+}
